@@ -1,0 +1,17 @@
+.container{
+    width: 35%;
+    margin:0px auto;
+    margin-top: 40px;
+    background-color: rgb(185, 186, 246);
+   
+}
+.logo{
+    width: 35%;
+    margin:0px auto;
+    margin-top: 40px;
+}
+#signup{
+    background-color: rgb(92, 53, 97);
+    font-weight: bolder;
+    color: aliceblue;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="signupform.css">
+	<title>New User SignUp form</title>
+</head>
+<body>
+
+	<div class="logo">
+		<h1>nerd<span style="color: blue;">Luv</span>&trade;</h1>
+	         <h2>where meek geek meet</h2>
+	</div>
+	<div class="container">
+		<div>
+
+			<fieldset style="border: 2px outset;">
+				<legend style="font-weight: bold; background-color: antiquewhite;">New User Sign-Up</legend>
+		
+				<form action="#" method="POST">
+					<table>
+						<tr>
+							<td>Name:</td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td>Gender:</td>
+							<td><input type="radio" name="gender" id="">Male <input type="radio" name="gender" checked id="">Female</td>
+						</tr>
+						<tr>
+							<td>Age:</td>
+							<td><input type="number" name="age" size="5"></td>
+						</tr>
+						<tr>
+							<td>Personality Type</td>
+							<td><input type="text" name="personality"></td>
+						</tr>
+						<tr>
+							<td>Favorite OS:</td>
+							<td>
+								<select name="os">
+									<option value="windows">Windows</option>
+									<option value="mac">MacOS</option>
+									<option value="linux">Linux</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Seeking Age</td>
+							<td><input type="number" placeholder="min"></td>
+							<td>to <input type="number" placeholder="max"></td>
+						</tr>
+
+						<tr>
+							<td>
+								<button id="signup">Sign-Up</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</fieldset>
+		</div>
+	</div>
+
+	
+</body>
+</html>
